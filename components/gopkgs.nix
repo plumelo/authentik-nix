@@ -12,7 +12,7 @@
 let
   guacamoleAvailable = lib.meta.availableOn stdenv.hostPlatform guacamole-server;
 in
-buildGo124Module {
+buildGo125Module {
   pname = "authentik-gopkgs";
   version = authentik-version;
   prePatch = ''
