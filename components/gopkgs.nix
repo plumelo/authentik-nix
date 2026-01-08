@@ -2,7 +2,7 @@
   authentik-src,
   authentik-version,
   authentikComponents,
-  buildGo124Module,
+  buildGo125Module,
   lib,
   makeWrapper,
   guacamole-server,
